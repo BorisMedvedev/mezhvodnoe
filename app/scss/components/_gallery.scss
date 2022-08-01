@@ -1,0 +1,99 @@
+.gallery {
+  padding: 70px 0 70px;
+  &__title {
+    margin-bottom: 70px;
+  }
+  &__list {
+    margin-right: 40px;
+    padding-bottom: 200px;
+    max-width: 680px;
+    width: 100%;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 38px 0 21px;
+    border-bottom: 2px solid #4567aa;
+    font-family: "Forum", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4567aa;
+    & a {
+      font-family: "HindMadurai", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+  }
+  &__item-img {
+    max-width: 720px;
+    max-height: 600px;
+    border-radius: 100px 2px 2px 2px;
+  }
+  .swiper {
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination {
+    font-family: "Forum", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #4666a9;
+  }
+  .btn-box1 {
+    max-width: 308px;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+  }
+  .gallery-swiper-button-next,
+  .gallery-swiper-button-prev {
+    width: 70px;
+    height: 70px;
+    border-radius: 99px;
+    border: 2px solid #4666a9;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .gallery-swiper-button-next {
+    background-image: url("../images/icons/arrow-right.svg");
+  }
+  .gallery-swiper-button-prev {
+    background-image: url("../images/icons/arrow-left.svg");
+  }
+}

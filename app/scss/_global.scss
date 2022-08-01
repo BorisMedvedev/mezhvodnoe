@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "forum", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.3;
+  color: $mineshaft;
+  background-color: $white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1710px;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site {
+  overflow: hidden;
+}
+
+.btn-reset {
+  padding: 0;
+  background-color: transparent;
+  border: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title {
+  margin: 0 0 15px;
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #202020;
+}
+
+.btn {
+  display: inline-block;
+  padding: 25px 70px 24px 46px;
+  font-family: "HindMadurai", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #4567aa;
+  border-radius: 2px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #ff8139;
+  }
+}

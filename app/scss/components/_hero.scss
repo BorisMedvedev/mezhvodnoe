@@ -1,0 +1,26 @@
+.hero {
+  position: relative;
+  color: $white;
+
+  &__inner {
+    background-image: url("../images/bg-main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 810px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__title {
+    max-width: 970px;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 99px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
